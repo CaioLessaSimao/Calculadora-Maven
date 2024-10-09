@@ -22,7 +22,7 @@ public class Menu {
 
         try {
             //Caminho do diretorio
-            Path dirpath = Paths.get("src\\main\\java\\com\\calculadora\\model\\operation");
+            Path dirpath = Paths.get("calculadora\\model\\operation");
 
             //Lista de arquivos do diretorio
             try(Stream<Path> filePaths = Files.list(dirpath)){
