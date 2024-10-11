@@ -66,6 +66,7 @@ public class Menu {
 
         Scanner input = new Scanner(System.in);
         int opcao = input.nextInt();
+        if(opcao == this.operacoes.size()+1) System.exit(0);
 
         System.out.println("Informe o primeiro valor:");
         int valor1 = input.nextInt();
