@@ -1,6 +1,12 @@
-package com.calculadora.dto;
+package com.calculadora.dto.calcular;
 
 public class ResponseDTO {
+
+    private int result = 0;
+
+
+
+
 
     public int getResult() {
         return result;
@@ -9,8 +15,6 @@ public class ResponseDTO {
     public void setResult(int result) {
         this.result = result;
     }
-
-    private int result = 0;
 
     public ResponseDTO(int result) {
         this.result = result;

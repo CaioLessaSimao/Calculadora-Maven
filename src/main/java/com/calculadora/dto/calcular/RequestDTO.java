@@ -1,4 +1,4 @@
-package com.calculadora.dto;
+package com.calculadora.dto.calcular;
 
 public class RequestDTO {
 
